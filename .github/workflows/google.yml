@@ -17,14 +17,14 @@ on:
 
 # Environment variables available to all jobs and steps in this workflow
 env:
-  GKE_PROJECT: ${{ secrets.GKE_PROJECT }}
-  GKE_EMAIL: ${{ secrets.GKE_EMAIL }}
+  GKE_PROJECT: ${{ secrets.project-cerberus-267301 }}
+  GKE_EMAIL: ${{ secrets.projectghostshell@gmail.com }}
   GITHUB_SHA: ${{ github.sha }}
-  GKE_ZONE: us-west1-a
-  GKE_CLUSTER: example-gke-cluster
-  IMAGE: gke-test
-  REGISTRY_HOSTNAME: gcr.io
-  DEPLOYMENT_NAME: gke-test
+  GKE_ZONE: us-central1-a
+  GKE_CLUSTER: my-gitlab-cluster
+  IMAGE: gke-1159-gke8-cos-77-12371-89-0-v200206-pre
+  REGISTRY_HOSTNAME: 07e1f041b49b52cdacf1dfec5a89f9597df533ad21c8e034579baf5f847d2d85
+  DEPLOYMENT_NAME: gke-my-gitlab-cluster-07e1f041-node
 
 jobs:
   setup-build-publish-deploy:
