@@ -24,7 +24,7 @@ env:
   GKE_CLUSTER: my-gitlab-cluster
   IMAGE: gke-1159-gke8-cos-77-12371-89-0-v200206-pre
   REGISTRY_HOSTNAME: 07e1f041b49b52cdacf1dfec5a89f9597df533ad21c8e034579baf5f847d2d85
-  DEPLOYMENT_NAME: gke-my-gitlab-cluster-07e1f041-node
+  DEPLOYMENT_NAME: gke-1159-gke8-cos-77-12371-89-0-v200206-pre
 
 jobs:
   setup-build-publish-deploy:
